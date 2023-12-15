@@ -233,9 +233,13 @@ select {
 .foodter-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
+.food {
+  display: flex;
+  flex-direction: column;
+}
 .food-icon {
   display: flex;
   justify-content: space-around;
@@ -245,12 +249,25 @@ select {
   flex-direction: column;
   text-decoration: none;
   gap: 20px;
-  font-style: normal;
-  line-height: 20px;
-  color: black;
+  list-style: none;
 }
 .food-title {
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 20px;
+}
+.food-text {
+  color: gray;
+  text-decoration: none;
+}
+.food-phone {
+  color: gray;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.food-email {
+  color: gray;
+  font-size: 25px;
+  font-weight: 550;
 }/*# sourceMappingURL=app.css.map */

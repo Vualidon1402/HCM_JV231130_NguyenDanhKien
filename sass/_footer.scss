@@ -1,9 +1,12 @@
 .foodter-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  // align-items: center;
+  align-items: flex-start;
 }
 .food {
+  display: flex;
+  flex-direction: column;
   &-icon {
     display: flex;
     justify-content: space-around;
@@ -13,14 +16,27 @@
     flex-direction: column;
     text-decoration: none;
     gap: 20px;
-    font-style: normal;
-    line-height: 20px;
-    color: black;
+    list-style: none;
   }
 
   &-title {
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 20px;
+  }
+  &-text {
+    color: gray;
+    text-decoration: none;
+  }
+  &-phone {
+    color: gray;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  &-email {
+    color: gray;
+    font-size: 25px;
+    font-weight: 550;
   }
 }
