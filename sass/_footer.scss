@@ -1,0 +1,26 @@
+.foodter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.food {
+  &-icon {
+    display: flex;
+    justify-content: space-around;
+  }
+  &-link {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    gap: 20px;
+    font-style: normal;
+    line-height: 20px;
+    color: black;
+  }
+
+  &-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+}

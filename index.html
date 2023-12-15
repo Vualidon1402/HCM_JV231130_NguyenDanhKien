@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="sass/app.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <title>Bài thi Hakathon</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header-container">
+            <div class="header-contact">
+              <span>Let's talk! <b>0904 694 869</b></span>
+              <p>Free shipping on a purchase value off 200$</p>
+              <div class="header-icon">
+                <i class="fa-regular fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+            <hr />
+            <div class="header-menu">
+              <h1 class="menu-title">Rikkei Fasion</h1>
+              <ul class="header-list">
+                <select name="home" id="home-list" style="color: blue">
+                  <option value="Home">Home</option>
+                  <option value="Home2">Home2</option>
+                </select>
+                <a href="#" class="header-list-about">About</a>
+                <select name="shop" id="shop-list">
+                  <option value="">Shop</option>
+                  <option value="">Shop2</option>
+                </select>
+                <select name="page" id="page-list">
+                  <option value="">Pages</option>
+                  <option value="">Pages2</option>
+                </select>
+                <select name="blog" id="blog-list">
+                  <option value="">Blog</option>
+                  <option value="">Blog2</option>
+                </select>
+                <a href="#" class="header-list-about">Contact</a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="slide">
+          <div class="container">
+            <div class="slide-container">
+              <div class="slide-img">
+                <div id="carouselExample" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="assets/img/images_advanced/banner1.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="assets/img/images_advanced/banner1.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="assets/img/images_advanced/banner1.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExample"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExample"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              <div class="slide-content">
+                <h2 class="slide-header">Summer <br />Collection</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  eu feugiat amet, libero ipsum enim pharetra hac.
+                </p>
+                <button class="slide-button">
+                  SHOP IT NOW<i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="product">
+          <div class="container">
+            <div class="product-container">
+              <div class="product-header">
+                <h3 class="product-header-left">Featured Products</h3>
+                <a href="#" class="product-header-right"
+                  >View All Products<i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+              <div class="product-menu">
+                <div class="product-item">
+                  <img
+                    class="product-pic"
+                    src="assets/img/images_advanced/product-item1.jpg"
+                    alt="error404"
+                  />
+                  <h4 class="product-content">Full Sleeve Cover Shirt</h4>
+                  <p class="product-text">$40.00</p>
+                </div>
+                <div class="product-item">
+                  <img
+                    class="product-pic"
+                    src="assets/img/images_advanced/product-item2.jpg"
+                    alt="error404"
+                  />
+                  <h4 class="product-content">Volunteer Hafl Blue</h4>
+                  <p class="product-text">$38.00</p>
+                </div>
+                <div class="product-item">
+                  <img
+                    class="product-pic"
+                    src="assets/img/images_advanced/product-item3.jpg"
+                    alt="error404"
+                  />
+                  <h4 class="product-content">Double Yellow Shirt</h4>
+                  <p class="product-text">$44.00</p>
+                </div>
+                <div class="product-item">
+                  <img
+                    class="product-pic"
+                    src="assets/img/images_advanced/product-item4.jpg"
+                    alt="error404"
+                  />
+                  <h4 class="product-content">Long Belly Grey Pant</h4>
+                  <p class="product-text">$33.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="hero">
+          <div class="container">
+            <div class="hero-container">
+              <div class="hero-item1">
+                <img
+                  src="assets/img/images_advanced/collection-item1.jpg"
+                  alt="eror404"
+                  class="hero-img"
+                />
+                <div class="hero-content1">
+                  <p class="hero-text1">CASUAL COLLECTION</p>
+                  <h3 class="hero-style">Street <br />Wear.</h3>
+                  <p class="hero-text12">
+                    Lorem ipsum dolor sit amet,<br />consectetur adipiscing
+                    elit. <br />
+                    Dignissim massa diam elementum.
+                  </p>
+                  <a href="#" class="hero-collection"
+                    >Shop Collection<i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="hero-item2">
+                <img
+                  src="assets/img/images_advanced/collection-item2.jpg"
+                  alt="eror404"
+                  class="hero-img"
+                />
+                <div class="hero-content2">
+                  <p class="hero-text2">BASIC COLLECTION</p>
+                  <h3 class="hero-style">Basic <br />Shoes.</h3>
+
+                  <a href="#" class="hero-collection"
+                    >Shop Collection<i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="hero-item3">
+                <img
+                  src="assets/img/images_advanced/collection-item3.jpg"
+                  alt="eror404"
+                  class="hero-img"
+                />
+                <div class="hero-content3">
+                  <p class="hero-text2">BEST SELLING PRODUCT</p>
+                  <h3 class="hero-style">Woolen <br />Hat.</h3>
+
+                  <a href="#" class="hero-collection"
+                    >Shop Collection<i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <hr />
+      <footer>
+        <div class="container">
+          <div class="foodter-container">
+          <div class="food1">
+            <h5 class="food-title">UItras</h5>
+            <ul class="food-link">
+              <a href="#"><li>About us</li></a>
+              <a href="#"><li>Conditions</li></a>
+              <a href="#"><li>Our Journals</li></a>
+              <a href="#"><li>Careers</li></a>
+              <a href="#"><li>Affililate Programme</li></a>
+              <a href="#"><li>Ultras Press</li></a>
+            </ul>
+          </div>
+          <div class="foot2">
+            <h5 class="food-title">Customer Service</h5>
+            <ul class="food-link">
+              <a href="#"><li>FAQ</li></a>
+              <a href="#">
+                <li>Contact</li>
+              </a>
+            
+              <a href="#"><li>Privacy Policy</li></a>
+              <a href="#"><li>Returns & Refunds</li></a>
+              <a href="#"><li>Cookie Guldelines</li></a>
+              <a href="#"><li>Delivery Information</li></a>
+            </ul>
+          </div>
+          <div class="foot3">
+            <h5 class="food-title">Contact Us</h5>
+            <ul class="food-link">
+              <a href="#"
+                ><li>Do you hace any questions or <br />suggestions?</li></a
+              >
+              <a href="#"
+                ><li><strong>ourservices@ultras.com</strong></li></a
+              >
+              <a href="#"
+                ><li>
+                  Do you need assistance? Give us <br />
+                  a call.
+                </li></a
+              >
+              <a href="#"
+                ><li><strong>+57 444 11 00 35</strong></li></a
+              >
+            </ul>
+          </div>
+          <div class="foot4">
+            <h5 class="food-title">Forever2018</h5>
+              <ul class="food-link">
+                <a href="#"
+                  ><li>
+                    Cras mattis sit ornare in metsu eu <br />amet adipiscing
+                    enim.
+                  </li></a
+                >
+                <a href="#"
+                  ><li>
+                    Ullamcorper in orci, ultrices <br />interger eget arcu.
+                    Consectetur leo <br />
+                    dignissim lacus, lacus sagittis <br />dictumst.
+                  </li></a
+                >
+              </ul>
+              <div class="food-icon">
+                <p><i class="fa-brands fa-facebook-f"></i></p>
+                <p><i class="fa-brands fa-twitter"></i></p>
+                <p><i class="fa-brands fa-youtube"></i></p>
+                <p><i class="fa-brands fa-behance"></i></p>
+              </div>
+        
+          </div>
+        </div>
+      </footer>
+      </div>
+      <hr />
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://kit.fontawesome.com/d1e6722f1e.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
